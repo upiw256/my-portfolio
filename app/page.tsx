@@ -14,9 +14,8 @@ import {
   FaPython
 } from "react-icons/fa";
 import { SiNextdotjs, SiLaravel, SiTailwindcss, SiMysql, SiGit } from "react-icons/si";
-import ContactForm from "@/components/ContactForm"; // Pastikan path ini sesuai dengan file ContactForm Anda
+import ContactForm from "@/components/ContactForm"; 
 
-// --- DATA DARI CV ANDA ---
 const data = {
   name: "Muhammad Luthfi Bilqisti",
   role: "Web Developer & Educator",
@@ -154,7 +153,7 @@ export default function Home() {
                {/* Image Container */}
                <div className="relative w-full h-full overflow-hidden rounded-2xl bg-slate-800 shadow-2xl">
                   <Image 
-                    src="/profile.png" 
+                    src="/my-portfolio/profile.png" 
                     alt="Profile Picture"
                     fill
                     className="object-cover object-top hover:scale-105 transition duration-500"
