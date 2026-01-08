@@ -70,7 +70,7 @@ const data = {
     }
   ],
   contact: {
-    phone: "+62 8961-3873-549",
+    phone: "+62 8773-2144-500",
     email: "bilqimlb@gmail.com",
     github: "https://github.com/upiw256",
     location: "Bandung, Indonesia"
